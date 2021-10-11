@@ -1,0 +1,45 @@
+name: flash_chat
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0<3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  math_expressions: ^2.0.0
+  cupertino_icons: ^0.1.2
+  animated_text_kit: ^2.2.0
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.5
+  modal_progress_hud: ^0.1.3
+  rflutter_alert: ^1.1.0
+  image_picker: ^0.6.5+3
+  firebase_storage: ^3.1.5
+  google_maps_flutter: ^0.5.33
+  geolocator: ^6.1.0
+  geocoder: ^0.2.1
+  firebase_messaging: ^6.0.13
+  image_downloader: ^0.30.0
+  flutter_dialogflow: ^0.1.3
+  bubble: ^1.1.9+1
+  intl:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - assets/robot.png
+    - assets/robot.jpg
+    - assets/camera.png
+    - assets/default.jpg
+
+    - assets/chattbot.json
